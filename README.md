@@ -1,2 +1,21 @@
 # conviva-android-coresdk
-Release repo for all android coresdk releases
+
+## Conviva Android Core sdk can be included in two ways in any Android app projects.
+
+* Offline library
+* Gradle dependency
+
+## Gradle dependency
+    Add the following line to app's build.gradle file.
+    
+    implementation 'com.conviva.sdk:conviva-core-sdk:4.0.8.127'
+    
+## Offline library
+    Place the Conviva library in app's 'lib' folder and add the following line to app's build.gradle file.
+    
+    implementation fileTree(dir: 'libs',include:['*.aar'])
+    
+    
+## Note:  
+
+* Refer https://community.conviva.com/ for integration guidelines.
