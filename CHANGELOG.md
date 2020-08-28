@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.0.9.132 (30/JUL/2020)
+* Bug Fixes and improvements
+* Supports Slate tracking
+
 ## 4.0.8.127 (22/JUL/2020)
 * Fixed crash while initializing the SDK.
 
