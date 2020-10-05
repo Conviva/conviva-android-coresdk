@@ -1,6 +1,11 @@
 
 # Changelog
 
+## 4.0.10.141 (05/OCT/2020)
+* Supports Android 11
+* Supports auto collection of Screen Resolution
+* Added API to report Dropped frames
+
 ## 4.0.9.132 (30/JUL/2020)
 * Bug Fixes and improvements
 * Supports Slate tracking
@@ -13,3 +18,97 @@
 * Supports custom device info for unsupported devices.
 * Supports to fetch Framework name & version without player object availability.
 
+## 4.0.5 (03/APR/2020)
+* Supports auto detection of NexStreaming and Brightcove Modules.
+
+## 4.0.4 (23/MAR/2020)
+* Supports auto detection of CDN Edge Server IP by Conviva Player Modules.
+
+## 4.0.3 (13/MAR/2020)
+* Adds the API setAdListener to support the Google IMA Module.
+* Updates for bug fixes and improvements.
+
+## 4.0.2 (14/FEB/2020)
+* Introduces a major upgrade to the SDK architecture that simplifies and accelerates Conviva integration.
+* Introduces ConvivaAnalytics, ConvivaVideoAnalytics, and ConvivaAdAnalytics to simplify the integration of the SDK.
+
+## 2.145.4 (13/DEC/2019)
+* Supports data collection and data compliance as per General Data Protection Regulation (GDPR), and California Consumer Privacy Act (CCPA).
+* Introduces setUserPreferenceForDataCollection() API for setting user preferences to opt-out of user data collection.
+* Introduces setUserPreferenceForDataDeletion() API for setting user preferences to delete previously collected user data.
+
+## 2.145.3 (29/AUG/2019)
+* Supports Android 10 (updated 23/SEP/2019).
+* Introduces setCDNServerIP() API to support setting of CDN Edge Server's IP address.
+
+## 2.145.2 (25/JUL/2019)
+* Supports Android Q Beta 4 (10).
+* Introduces a new feature to log error for missing late metadata during session creation and rendering of first frame.
+* Fixes the memory leak issue found in the Conviva SDK.
+* Fixes the heartbeat interval issue that updates only the latest amongst the sessions in a single client instance.
+* Changes the application permission required to fetch Signal Strength to ACCESS_FINE_LOCATION in Android Q.
+
+## 2.145.1 (12/SEPT/2018)
+* Supports Android 9 Pie.
+* Introduces Link Encryption changes to support security on Android P devices.
+* Improves custom event error handling for non-string data types.
+* Fixes missing state change event for assetName and playerName in the first heartbeat.
+
+## 2.143.0.36122 (20/JUN/2018) (manual download)
+## 2.145.0 (30/JUN/2018) (Gradle install)
+* Supports Gradle dependency manager. (update 30/JUN/2018)
+* Supports Android 9 Pie, developer preview 2.
+* Fixes exception issue when custom tags value was set to null.
+* Improves handling of concurrent modification of custom tags hash map, by two separate threads.
+
+## 2.141.0.35947 (05/JUN/2018)
+* Moves updateContentMetadata API to Client, to allow metadata updates during the entire session lifetime.
+* Deprecates updateContentMetadata API from PlayerStateManager class.
+
+## 2.138.0.35421 (14/MAR/2018)
+* Supports Kotlin. (update 24/MAY/2018)
+* Supports Ad Experience, part of Ad Insights.
+* Removes detection and collection of Wi-Fi SSID.
+
+## 2.133.0.34793 (27/DEC/2017)
+* Supports customized gatewayUrl using each customer's CUSTOMER_KEY.
+* Removed defaultDevelopmentGatewayUrl field from ClientSettings class.
+
+## 2.129.0.34308 (15/SEP/2017)
+* Supports Android Oreo (8.0.0).
+* Fixed race condition issue relating to Average Frame Rate detection.
+* Improved Android Core SDK with additional exception handling.
+* Added API level check to capture cellular signal strength for WCDMA.
+* Added Picture-in-Picture (PiP) mode support for Custom Android Player.
+
+## 2.127.0.33850 (15/AUG/2017)
+* Supports Android O Preview 3.
+
+## 2.125.0.33492 (07/JUN/2017)
+* Enhanced Frame Rate collection from Player.
+* Customer set values for metadata take priority over automatically detected values by the Conviva player drop-in module.
+* Validated on Android O Preview 2. (update 07/JULY/2017)
+
+## 2.123.0.33157 (24/APR/2017)
+* More accurate reporting of Average Frame Rate.
+
+## 2.122.0.32826 (31/MAR/2017)
+* Fix for incorrect reporting of content Duration.
+
+## 2.121.0.32528 (16/MAR/2017)
+* Synchronization improvement in Core SDK.
+
+## 2.120.0.32345 (13/FEB/2017)
+* Improvement to core library protocol implementation.
+* Supports auto detection of Advertising ID (update: this has been removed on release SDK_2.121.0.32528 due to privacy concerns).
+* Ability to update an existing ContentMetadata object with updateContentMetadata(contentmetadata) API call (mutable metadata).
+* Deprecated the following APIs:
+    * setDuration( int duration) API from PlayerStateManager.
+    * setEncodedFrameRate(int encodedFrameRate) from PlayerStateManager.
+    * updateContentMetadata(int sessionKey, ContentMetadata contentMetadata) from Client.
+  Use updateContentMetadata(ContentMetadata _contentMetadata) API in PlayerStateManager to update Duration, Encoded Frame Rate and other metadata.
+* Deprecated the following field:
+  public int defaultBitrateKbps field from ContentMetadata is deprecated. Bitrate can be set using setBitrateKbps(int newBitrateKbps) API in PlayerStateManager.
+
+## 2.119.0.32040 (04/JAN/2017)
+* Improvement to core library protocol implementation.
