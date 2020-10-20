@@ -15,7 +15,9 @@
     
     implementation fileTree(dir: 'libs',include:['*.aar'])
     
-    
+## Support Android Version    
+    Android 11
+ 
 ## Note:  
 
 * Refer https://community.conviva.com/ for integration guidelines.
