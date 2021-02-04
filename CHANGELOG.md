@@ -1,6 +1,11 @@
 
 # Changelog
 
+## 4.0.11 (10/FEB/2021)
+* Supports 5G network type detection.
+* Added IS_OFFLINE_PLAYBACK constant to enable offline monitoring.
+* Added PLAYBACK.AVG_BITRATE constant to report average bitrate.
+
 ## 4.0.10.141 (05/OCT/2020)
 * Supports Android 11
 * Supports auto collection of Screen Resolution
