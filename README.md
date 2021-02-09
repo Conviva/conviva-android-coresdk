@@ -8,7 +8,7 @@
 ## Gradle dependency
     Add the following line to app's build.gradle file.
     
-    implementation 'com.conviva.sdk:conviva-core-sdk:4.0.10.141'
+    implementation 'com.conviva.sdk:conviva-core-sdk:4.0.11.150'
     
 ## Offline library
     Place the Conviva library in app's 'lib' folder and add the following line to app's build.gradle file.
