@@ -1,6 +1,13 @@
 
 # Changelog
 
+## 4.0.11 (10/FEB/2021)
+* Supports 5G network type detection.
+* Added IS_OFFLINE_PLAYBACK constant to enable offline monitoring.
+* Added support for reporting average bit rate using PLAYBACK.AVG_BITRATE constant.
+* IS_LIVE key can accept boolean as well as enum.
+* Introduces new versioning of Major.Minor.PatchL(Eg.. 4.1.2L) for the legacy Conviva SDK Integrations to be able to differentiate from the Simplified     Integrations. (Existing)
+
 ## 4.0.10.141 (05/OCT/2020)
 * Supports Android 11
 * Supports auto collection of Screen Resolution
