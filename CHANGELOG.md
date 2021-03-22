@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.0.12.155 (22/MAR/2021)
+* Enhancement to determine version based on API(Legacy/Simplified) being used for integration.
+
 ## 4.0.11.150 (10/FEB/2021)
 * Supports 5G network type detection.
 * Added IS_OFFLINE_PLAYBACK constant to enable offline monitoring.
