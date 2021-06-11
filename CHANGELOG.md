@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.0.13.171 (28/MAY/2021)
+* Fixed CSR-6029: Android SDK - Offline data not reported
+
 ## 4.0.12.155 (22/MAR/2021)
 * Enhancement to determine version based on API(Legacy/Simplified) being used for integration.
 
