@@ -1,6 +1,11 @@
 
 # Changelog
 
+## 4.0.14.183 (24/JUN/2021)
+* Removed SDK included permissions.Previously SDK was including permissions that are listed on community and these are redundant for some who don't want to add these permissions.
+* Fixed the ignoring of PauseJoin when false play state is reported prior to Preroll Ad impacting VST metric.
+* Fixed DB insert failure of the data with special symbols(\`) while storing Hbs in offline mode.
+
 ## 4.0.13.171 (28/MAY/2021)
 * Fixed CSR-6029: Android SDK - Offline data not reported
 
