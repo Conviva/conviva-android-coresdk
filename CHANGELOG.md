@@ -1,7 +1,11 @@
 
 # Changelog
 
-## 4.0.14.183 (24/JUN/2021)
+## 4.0.16.187 (12/JUL/2021)
+
+* Fixed crash that's happening on some devices on mobile data connection.
+
+## 4.0.15.185 (24/JUN/2021)
 
 * Removed SDK included permissions.Previously SDK was including permissions that we listed on community and asked customers to include them in the apps.
 * Fixed the ignoring of PauseJoin when false play state is reported prior to Preroll Ad impacting VST metric.
