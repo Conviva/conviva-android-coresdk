@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.0.17.197 (24/SEP/2021)
+
+* Supports auto collection of app version.
+
 ## 4.0.16.187 (12/JUL/2021)
 
 * Fixed crash that's happening on some devices on mobile data connection.
