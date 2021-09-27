@@ -4,6 +4,7 @@
 ## 4.0.17.197 (24/SEP/2021)
 
 * Supports auto collection of app version.
+* Supports Android 12 Beta 5.
 
 ## 4.0.16.187 (12/JUL/2021)
 
