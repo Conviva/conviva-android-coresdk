@@ -1,6 +1,13 @@
 
 # Changelog
 
+## 4.0.18 (18/NOV/2021)
+
+* Supports Android 12.
+* Removes legacy SDK API’s.
+* adType attribute added to PodStart event.
+* Fixed a synchronisation issue while metric input.
+
 ## 4.0.17.197 (24/SEP/2021)
 
 * Supports auto collection of app version.
