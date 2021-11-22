@@ -8,7 +8,7 @@
 ## Gradle dependency
     Add the following line to app's build.gradle file.
     
-    implementation 'com.conviva.sdk:conviva-core-sdk:4.0.16.187'
+    implementation 'com.conviva.sdk:conviva-core-sdk:4.0.18'
     
 ## Offline library
     Place the Conviva library in app's 'lib' folder and add the following line to app's build.gradle file.
@@ -16,7 +16,7 @@
     implementation fileTree(dir: 'libs',include:['*.aar'])
     
 ## Support Android Version    
-    Android 11
+    Android 12
  
 ## Note:  
 
