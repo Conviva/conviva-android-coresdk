@@ -3,7 +3,7 @@
 
 ## 4.0.18 (18/NOV/2021)
 
-Note: This version of Core SDK is not backward compatible with Core SDK v4.0.17 and previous versions.
+Note: This version of Core SDK is not backward compatible with Core SDK v4.0.17.197 and previous versions.
 
 * Supports Android 12.
 * Removes legacy SDK API’s.
