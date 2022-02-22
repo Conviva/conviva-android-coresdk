@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.0.19 (11/FEB/2022)
+
+* Internal code enhancements.
+
 ## 4.0.18 (18/NOV/2021)
 
 Note: This version of Core SDK is not backward compatible with Core SDK v4.0.17.197 and previous versions.
