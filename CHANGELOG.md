@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.0.20 (23/FEB/2022)
+
+* Enabled Android 12L Beta 2 Support.
+
 ## 4.0.19 (11/FEB/2022)
 
 * Internal code enhancements.
