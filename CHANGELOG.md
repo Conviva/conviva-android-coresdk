@@ -1,6 +1,15 @@
 
 # Changelog
 
+## 4.0.22 (14/June/2022)
+* Minor bug fixes.
+* Performance improvements
+
+## 4.0.21(6/May/2022)
+
+* Improvements in offline playback.
+* Added log messages for bitrate collection.
+
 ## 4.0.20 (23/FEB/2022)
 
 * Enabled Android 12L Beta 2 Support.
