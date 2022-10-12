@@ -1,14 +1,33 @@
 
 # Changelog
 
+## 4.0.27 (11/Oct/2022)
+
+* Added support for media3 Exoplayer (1.0.0-beta02)
+
+## 4.0.26 (07/Oct/2022)
+
+* Minor improvements in message logging for bitrate
+
+## 4.0.25 (30/Sep/2022)
+
+* Support for Android 13 GA
+
+
+## 4.0.24 (12/Oct/2022)
+* Hotfix on top of 4.0.23 to move the offline database calls to a worker thread to avoid Strict Mode Disk Read violations
+
+
 ## 4.0.23 (15/July/2022)
+
 * Support for Android 13 Beta 2
 
 ## 4.0.22 (14/June/2022)
+
 * Minor bug fixes.
 * Performance improvements
 
-## 4.0.21(6/May/2022)
+## 4.0.21 (6/May/2022)
 
 * Improvements in offline playback.
 * Added log messages for bitrate collection.
