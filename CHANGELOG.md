@@ -1,6 +1,13 @@
 
 # Changelog
 
+## 4.0.28 (20/Dec/2022)
+
+* **Released on top of v4.0.26 i.e., without media3 package support.**
+* Fixes Out Of Memory issue on creation of new session due to new thread creation.
+* Fixes the issue of offline session not being reported due to the handler creation inside the background thread.
+* Fixes the crash during Conviva initialization from a kotlin coroutine.
+
 ## 4.0.27 (11/Oct/2022)
 
 * Added support for media3 Exoplayer (1.0.0-beta02)
