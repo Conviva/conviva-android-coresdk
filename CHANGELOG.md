@@ -1,40 +1,44 @@
 
 # Changelog
 
-## 4.0.28 (20/Dec/2022)
+## 4.0.29 (29/DEC/2022)
+
+* Supports feature to broadcast Video Sensor Events to Conviva Application Insights SDK(No impact for the Video Sensor only integrated applications).
+
+## 4.0.28 (20/DEC/2022)
 
 * **Released on top of v4.0.26 i.e., without media3 package support.**
 * Fixes Out Of Memory issue on creation of new session due to new thread creation.
 * Fixes the issue of offline session not being reported due to the handler creation inside the background thread.
 * Fixes the crash during Conviva initialization from a kotlin coroutine.
 
-## 4.0.27 (11/Oct/2022)
+## 4.0.27 (11/OCT/2022)
 
 * Added support for media3 Exoplayer (1.0.0-beta02)
 
-## 4.0.26 (07/Oct/2022)
+## 4.0.26 (07/OCT/2022)
 
 * Minor improvements in message logging for bitrate
 
-## 4.0.25 (30/Sep/2022)
+## 4.0.25 (30/SEP/2022)
 
 * Support for Android 13 GA
 
 
-## 4.0.24 (12/Oct/2022)
+## 4.0.24 (12/OCT/2022)
 * Hotfix on top of 4.0.23 to move the offline database calls to a worker thread to avoid Strict Mode Disk Read violations
 
 
-## 4.0.23 (15/July/2022)
+## 4.0.23 (15/JUL/2022)
 
 * Support for Android 13 Beta 2
 
-## 4.0.22 (14/June/2022)
+## 4.0.22 (14/JUN/2022)
 
 * Minor bug fixes.
 * Performance improvements
 
-## 4.0.21 (6/May/2022)
+## 4.0.21 (6/MAY/2022)
 
 * Improvements in offline playback.
 * Added log messages for bitrate collection.
