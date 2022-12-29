@@ -16,7 +16,9 @@
     implementation fileTree(dir: 'libs',include:['*.aar'])
     
 ## Support Android Version    
-    Android 12L Beta 2
+
+Target sdk version : Android 13 (API level 33)
+Minimum sdk version : Android 4.0.4 (API level 15)
  
 ## Note:  
 
