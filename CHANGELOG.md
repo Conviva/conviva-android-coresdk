@@ -38,6 +38,13 @@
 * Minor bug fixes.
 * Performance improvements
 
+## 4.0.21.1 (19/JAN/2023)
+
+* Hotfix on top of 4.0.21
+* Support for Android 13 GA
+* Supports feature to broadcast Video Sensor Events to Conviva Application Insights SDK(No impact for the Video Sensor only integrated applications)
+* Enhances the reporting of the Playing state by sending urgent HB
+
 ## 4.0.21 (6/MAY/2022)
 
 * Improvements in offline playback.
