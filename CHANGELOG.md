@@ -72,6 +72,15 @@ Note: This version of Core SDK is not backward compatible with Core SDK v4.0.17.
 * Supports auto collection of app version.
 * Supports Android 12 Beta 5.
 
+## 4.0.16.189 (18/FEB/2023)
+
+* Hotfix on top of 4.0.16.187
+* Enhances collection by sending urgent heartbeats on following events:
+   *  First PLAYING state
+   *  Application Background and Foreground (autocollected by Conviva)
+   *  FATAL/WARNING Errors
+
+
 ## 4.0.16.187 (12/JUL/2021)
 
 * Fixed crash that's happening on some devices on mobile data connection.
