@@ -54,6 +54,14 @@
 
 * Enabled Android 12L Beta 2 Support.
 
+## 4.0.19.1 (18/FEB/2023)
+
+* Hotfix on top of 4.0.19
+* Enhances collection by sending urgent heartbeats on following events:
+   *  First PLAYING state
+   *  Application Background and Foreground (autocollected by Conviva)
+   *  FATAL/WARNING Errors
+
 ## 4.0.19 (11/FEB/2022)
 
 * Internal code enhancements.
