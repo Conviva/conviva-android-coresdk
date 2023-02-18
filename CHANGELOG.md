@@ -58,9 +58,9 @@
 
 * Hotfix on top of 4.0.19
 * Enhances collection by sending urgent heartbeats on following events:
-   *  First PLAYING state
-   *  Application Background and Foreground (autocollected by Conviva)
-   *  FATAL/WARNING Errors
+   *  First PLAYING state for Content Sessions
+   *  Application Background and Foreground for Content/Ad Sessions(autocollected by Conviva)
+   *  FATAL/WARNING Errors for Content/Ad Sessions
 
 ## 4.0.19 (11/FEB/2022)
 
@@ -84,9 +84,9 @@ Note: This version of Core SDK is not backward compatible with Core SDK v4.0.17.
 
 * Hotfix on top of 4.0.16.187
 * Enhances collection by sending urgent heartbeats on following events:
-   *  First PLAYING state
-   *  Application Background and Foreground (autocollected by Conviva)
-   *  FATAL/WARNING Errors
+   *  First PLAYING state for Content Sessions
+   *  Application Background and Foreground for Content/Ad Sessions(autocollected by Conviva)
+   *  FATAL/WARNING Errors for Content/Ad Sessions
 
 
 ## 4.0.16.187 (12/JUL/2021)
