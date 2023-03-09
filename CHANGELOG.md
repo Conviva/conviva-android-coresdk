@@ -1,6 +1,12 @@
 
 # Changelog
 
+## 4.0.30 (09/MAR/2023)
+
+* Improves feature of broadcasting Video Sensor Events to Conviva Application Insights SDK (No impact for the Video Sensor only integrated applications)
+* Supports Auto Detection of Application Background and Foreground Events in Content and Ad Sessions
+* Fixes the invalid error log message shown during session cleanup
+
 ## 4.0.29 (29/DEC/2022)
 
 * Supports feature to broadcast Video Sensor Events to Conviva Application Insights SDK(No impact for the Video Sensor only integrated applications).
