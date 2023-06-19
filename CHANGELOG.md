@@ -1,5 +1,12 @@
 
 # Changelog
+## 4.0.32 (19/JUN/2023)
+* Fixes the crash issue when the app is backgrounded or foregrounded after release is called.
+* Fixes the thread synchronization issues in the init and release lifecycle.
+* Fixes the issue of Ad asset name not being reported during the zeroth heartbeat.
+
+## 4.0.31 (10/APR/2023)
+* Introduces new keys ConvivaSdkConstants.PLAYBACK.AUDIO_LANGUAGE, ConvivaSdkConstants.PLAYBACK.SUBTITLES_LANGUAGE, ConvivaSdkConstants.PLAYBACK.CLOSED_CAPTIONS_LANGUAGE within reportPlaybackMetric() API for setting audio track changes, subtitle track changes and closed caption track changes respectively.
 
 ## 4.0.30 (09/MAR/2023)
 
