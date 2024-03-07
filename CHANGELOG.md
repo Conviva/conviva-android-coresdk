@@ -14,6 +14,7 @@
 * Supports Auto Detection of Application Background and Foreground Events in Content and Ad Sessions
 * Fixes the invalid error log message shown during session cleanup
 
+### DEPRECATED VERSION
 ## 4.0.29 (29/DEC/2022)
 
 * Supports feature to broadcast Video Sensor Events to Conviva Application Insights SDK(No impact for the Video Sensor only integrated applications).
@@ -51,6 +52,7 @@
 * Minor bug fixes.
 * Performance improvements
 
+### DEPRECATED VERSION
 ## 4.0.21.1 (19/JAN/2023)
 
 * Hotfix on top of 4.0.21
