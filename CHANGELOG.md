@@ -1,5 +1,17 @@
 
 # Changelog
+## 4.0.36 (08/MAR/2024)
+* Resolved the metadata retention issue by cleaning up at the end of the session.
+
+## 4.0.35 (11/OCT/2023)
+* Supports Android 14
+
+## 4.0.34 (04/OCT/2023)
+* Fixes the thread synchronization issues in the setCallback function.
+
+## 4.0.33 (05/JUL/2023)
+* Supports media3 Exoplayer.
+
 ## 4.0.32 (19/JUN/2023)
 * Fixes the crash issue when the app is backgrounded or foregrounded after release is called.
 * Fixes the thread synchronization issues in the init and release lifecycle.
