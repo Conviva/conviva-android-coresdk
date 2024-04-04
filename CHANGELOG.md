@@ -1,7 +1,10 @@
 
 # Changelog
+## 4.0.37 (04/APR/2024)
+* Resolves the NullPointerException due to synchronisation issues in the Android Modules.
+
 ## 4.0.36 (08/MAR/2024)
-* Resolved the metadata retention issue by cleaning up at the end of the session.
+* Resolves the metadata retention issue by cleaning up at the end of the session.
 
 ## 4.0.35 (11/OCT/2023)
 * Supports Android 14
