@@ -1,6 +1,7 @@
 
 # Changelog
 ## 4.0.39 (26/JUL/2024)
+* Support for Android 15. (Updated: 13/SEP/2024)
 * Supports playback tracking in the background.
 * Set the`ConvivaSdkConstants.ALLOW_BACKGROUND_PLAYBACK` to true, to continue the tracking in the background.
 
