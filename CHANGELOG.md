@@ -1,5 +1,13 @@
 
 # Changelog
+
+## 4.0.41 (17/OCT/2024)
+* Fixes issue in resetting buffer length to 0 on ad end, reducing inflated errors for content / ad sessions.
+* Enhances collection by sending urgent heartbeats on following events:
+   *  First PLAYING state for Content Sessions
+   *  Application Background for Content/Ad Sessions(autocollected by Conviva)
+   *  FATAL Errors for Content/Ad Sessions
+
 ## 4.0.39 (26/JUL/2024)
 * Support for Android 15. (Updated: 13/SEP/2024)
 * Supports playback tracking in the background.
