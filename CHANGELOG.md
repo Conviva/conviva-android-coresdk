@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.0.42 (01/DEC/2024)
+* Fixes the ANR issue in the Network Callbacks
+* Fixes the caught exception in urgent HB timer
+
 ## 4.0.41 (17/OCT/2024)
 * Fixes issue in resetting buffer length to 0 on ad end, reducing inflated errors for content / ad sessions.
 * Enhances collection by sending urgent heartbeats on following events:
