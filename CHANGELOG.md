@@ -1,7 +1,7 @@
 
 # Changelog
 
-## 4.0.42 (01/DEC/2024)
+## 4.0.42 (02/DEC/2024)
 * Fixes the ANR issue in the Network Callbacks
 * Fixes the caught exception in urgent HB timer
 
