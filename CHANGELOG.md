@@ -1,6 +1,11 @@
 
 # Changelog
 
+## 4.0.43 (10/JAN/2025)
+* Fixes the issue of last HB missing some metadata.
+* Fixes the issue of language metadata not being reset for a subsequent new session.
+* Changed the minimum delay for urgent HBs to 200ms.
+
 ## 4.0.42 (02/DEC/2024)
 * Fixes the ANR issue in the Network Callbacks
 * Fixes the caught exception in urgent HB timer
