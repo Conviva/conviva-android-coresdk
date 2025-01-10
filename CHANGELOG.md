@@ -2,9 +2,9 @@
 # Changelog
 
 ## 4.0.43 (10/JAN/2025)
-* Fixes the issue of last HB missing some metadata.
-* Fixes the issue of language metadata not being reset for a subsequent new session.
-* Changed the minimum delay for urgent HBs to 200ms.
+* Fixes the issue of last HB missing framework name and version, module name and module version metadata.
+* Fixes the issue of language metadata not being reset for a subsequent new session in same client instance.
+* Changed the minimum delay for urgent Heartbeats to 200ms.
 
 ## 4.0.42 (02/DEC/2024)
 * Fixes the ANR issue in the Network Callbacks
