@@ -26,6 +26,7 @@ If you are using shrinkResources or minifyEnabled properties in the application 
 -keep class com.conviva.playerinterface.** { *; }
 -keep, allowshrinking class com.conviva.** { *; }
 -dontwarn  com.google.android.exoplayer2.ExoPlayer.**, *
+-dontwarn  androidx.media3.**, *
 ```
  
 ## Note:  
