@@ -19,6 +19,14 @@
 
 Target sdk version : Android 13 (API level 33)
 Minimum sdk version : Android 4.0.4 (API level 15)
+
+## ProGuard rules
+If you are using shrinkResources or minifyEnabled properties in the application to optimize the size of the APK file, then add the following in ProGuard rules:
+```
+-keep class com.conviva.playerinterface.** { *; }
+-keep, allowshrinking class com.conviva.** { *; }
+-dontwarn  com.google.android.exoplayer2.ExoPlayer.**, *
+```
  
 ## Note:  
 
