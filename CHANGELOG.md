@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.0.44 (01/APR/2025)
+* Support for Android 16.
+* Internal updates and improvements.
+  
 ## 4.0.43 (10/JAN/2025)
 * Fixes the issue of last HB missing framework name and version, module name and module version metadata.
 * Fixes the issue of language metadata not being reset for a subsequent new session in same client instance.
