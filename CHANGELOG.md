@@ -1,7 +1,7 @@
 
 # Changelog
 
-### 4.0.45 (02/JUN/2025)
+## 4.0.45 (02/JUN/2025)
 - Support for new [Media3](https://github.com/Conviva/conviva-android-media3) module.
   
 ## 4.0.44 (01/APR/2025)
