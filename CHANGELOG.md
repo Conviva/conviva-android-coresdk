@@ -1,6 +1,14 @@
 
 # Changelog
 
+## 4.0.47 (13/AUG/2025)
+Introduces a new constant `ConvivaSdkConstants.PLAYBACK.AUTO_REPORT_ERRORS` to turn off the default error reporting behavior of the ExoPlayer and Media3 modules. Pass this constant in the player info through the `ConvivaVideoAnalytics.setPlayer` API.
+Note: Applicable only to ExoPlayer modules 4.1.6 and above, and Media3 modules 4.0.1 and above.
+
+## 4.0.46 (11/JUL/2025)
+- Resolved a NullPointerException that occurred when calling getSessionId under certain conditions.
+- Introduced a new method getSessionIdAsync(SessionIdCallback callback) to fetch the session ID asynchronously.
+  
 ## 4.0.45 (02/JUN/2025)
 - Support for new [Media3](https://github.com/Conviva/conviva-android-media3) module.
   
