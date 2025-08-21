@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.0.48 (21/AUG/2025)
+- Introduced a new method `reportAdType(ConvivaSdkConstants.AdType adType)` to `ConvivaVideoAnalytics` to allow reporting the type of ad to the video session.
+  
 ## 4.0.47 (13/AUG/2025)
 Introduces a new constant `ConvivaSdkConstants.PLAYBACK.AUTO_REPORT_ERRORS` to turn off the default error reporting behavior of the ExoPlayer and Media3 modules. Pass this constant in the player info through the `ConvivaVideoAnalytics.setPlayer` API.
 Note: Applicable only to ExoPlayer modules 4.1.6 and above, and Media3 modules 4.0.1 and above.
