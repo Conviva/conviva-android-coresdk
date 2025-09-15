@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.0.49 (15/SEP/2025)
+- Support for new [Media3 IMA](https://github.com/Conviva/conviva-android-media3-imasdk) and [ExoPlayer IMA](https://github.com/Conviva/conviva-android-exoplayer-imasdk) modules.
+  
 ## 4.0.48 (21/AUG/2025)
 - Introduced a new method `reportAdType(ConvivaSdkConstants.AdType adType)` to `ConvivaVideoAnalytics` to allow reporting the type of ad to the video session.
   
