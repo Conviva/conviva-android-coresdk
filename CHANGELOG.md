@@ -1,6 +1,6 @@
 
 # Changelog
-## 4.0.50 (17/DEC/2025)
+## 4.0.50 (16/DEC/2025)
 - Supports reporting the Ad session events such as, Attempt, End, etc., to DPI.
 
 ## 4.0.49 (15/SEP/2025)
