@@ -1,7 +1,7 @@
 
 # Changelog
 ## 4.0.51 (26/MAR/2026)
-- Enchances Error Delegating SSAI Ad Session Errors to Video Session vice versa
+- Enhances Error Delegating SSAI Ad Session Errors to Video Session vice versa
 
 ## 4.0.50 (16/DEC/2025)
 - Supports reporting the Ad session events such as, Attempt, End, etc., to DPI.
